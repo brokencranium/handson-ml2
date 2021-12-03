@@ -31,7 +31,7 @@ scipy==1.3.1
 
 
 ##### Machine Learning packages
-scikit-learn==0.20.4
+scikit-learn==0.24.2
 
 # Optional: the XGBoost library is only used in the ensemble learning chapter.
 xgboost==0.90
@@ -68,7 +68,7 @@ tensorflow-serving-api==2.0.0
 
 ##### Image manipulation
 imageio==2.6.0
-Pillow==6.2.0
+Pillow==8.3.2
 scikit-image==0.15.0
 graphviz==0.10.1
 
@@ -90,7 +90,7 @@ joblib==0.13.2
 numexpr==2.7.0
 
 # Optional: these libraries can be useful in chapter 3, exercise 4.
-nltk==3.4.5
+nltk==3.6.4
 urlextract==0.13.0
 
 # Needed in chapter 19.
@@ -102,3 +102,5 @@ requests==2.22.0
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
 tqdm==4.36.1
 ipywidgets==7.5.1
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
