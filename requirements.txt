@@ -68,7 +68,7 @@ tensorflow-serving-api==2.0.0
 
 ##### Image manipulation
 imageio==2.6.0
-Pillow==6.2.0
+Pillow==9.0.0
 scikit-image==0.15.0
 graphviz==0.10.1
 
@@ -90,7 +90,7 @@ joblib==0.13.2
 numexpr==2.7.0
 
 # Optional: these libraries can be useful in chapter 3, exercise 4.
-nltk==3.4.5
+nltk==3.6.6
 urlextract==0.13.0
 
 # Needed in chapter 19.
