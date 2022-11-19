@@ -25,7 +25,7 @@
 ##### Core scientific packages
 jupyter==1.0.0
 matplotlib==3.1.1
-numpy==1.17.2
+numpy==1.22.2
 pandas==0.25.1
 scipy==1.3.1
 
@@ -68,7 +68,7 @@ tensorflow-serving-api==2.0.0
 
 ##### Image manipulation
 imageio==2.6.0
-Pillow==6.2.0
+Pillow==9.2.0
 scikit-image==0.15.0
 graphviz==0.10.1
 
@@ -102,3 +102,5 @@ requests==2.22.0
 # Optional: tqdm displays nice progress bars, ipywidgets for tqdm's notebook support
 tqdm==4.36.1
 ipywidgets==7.5.1
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
